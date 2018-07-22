@@ -8,5 +8,6 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers.each {|room, name| room = "suite_e" && name[0] == "A"? 
+  passengers.each do |room, name| 
+    room = "suite_e" && name[0] == "A"? puts 
 end
