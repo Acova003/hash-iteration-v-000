@@ -11,8 +11,6 @@ def select_winner(passengers)
   passengers.each do |room, name| 
     if room == :suite_a && name[0] == "A"? 
       winner = name  
-    else 
-      nil
     end 
   end
 end
