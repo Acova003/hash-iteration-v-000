@@ -9,6 +9,10 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |room, name| 
-    if room == "suite_a" && name[0] == "A"? puts {name} : nil
+    if room == "suite_a" && name[0] == "A"? 
+      puts {name} 
+    else 
+      nil
+    end 
   end
 end
