@@ -10,4 +10,5 @@ def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |room, name| 
     room = "suite_e" && name[0] == "A"? puts {name} : nil
+  end
 end
