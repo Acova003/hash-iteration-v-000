@@ -8,5 +8,5 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers.each
+  passengers.each {|room, name| room = "suite_e" && name[0] == "A"? 
 end
